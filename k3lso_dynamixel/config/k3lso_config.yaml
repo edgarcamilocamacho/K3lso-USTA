@@ -1,0 +1,77 @@
+fl_hip_joint:
+  id: 11
+  invert: False
+  offset: 0.0
+  ratio: 1.0
+
+fl_upper_leg_joint:
+  id: 12
+  invert: False
+  offset: 0.0
+  ratio: 1.0
+
+fl_lower_leg_joint:
+  id: 13
+  invert: False
+  offset: 1.476
+  ratio: 0.714285714286
+
+  
+
+fr_hip_joint:
+  id: 21
+  invert: False
+  offset: 0.0
+  ratio: 1.0
+
+fr_upper_leg_joint:
+  id: 22
+  invert: True
+  offset: 0.0
+  ratio: 1.0
+ 
+fr_lower_leg_joint:
+  id: 23
+  invert: True
+  offset: 1.535
+  ratio: 0.714285714286
+
+
+
+rl_hip_joint:
+  id: 31
+  invert: True
+  offset: 0.0
+  ratio: 1.0
+
+rl_upper_leg_joint:
+  id: 32
+  invert: False
+  offset: 0.0
+  ratio: 1.0
+
+rl_lower_leg_joint:
+  id: 33
+  invert: False
+  offset: 1.8
+  ratio: 0.714285714286
+
+
+
+rr_hip_joint:
+  id: 41
+  invert: True
+  offset: 0.0
+  ratio: 1.0
+
+rr_upper_leg_joint:
+  id: 42
+  invert: True
+  offset: 0.0
+  ratio: 1.0
+
+rr_lower_leg_joint:
+  id: 43
+  invert: True
+  offset: 0.986
+  ratio: 0.714285714286

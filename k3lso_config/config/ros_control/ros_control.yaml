@@ -1,0 +1,34 @@
+"":
+  joint_states_controller:
+      type: joint_state_controller/JointStateController
+      publish_rate: 50
+
+  joint_group_position_controller:
+      type: effort_controllers/JointTrajectoryController
+      joints:
+          - fl_hip_joint
+          - fl_upper_leg_joint
+          - fl_lower_leg_joint
+          - fr_hip_joint
+          - fr_upper_leg_joint
+          - fr_lower_leg_joint
+          - rl_hip_joint
+          - rl_upper_leg_joint
+          - rl_lower_leg_joint
+          - rr_hip_joint
+          - rr_upper_leg_joint
+          - rr_lower_leg_joint
+
+      gains:
+        fl_hip_joint : {p: 180, d: 0.9, i: 20}
+        fl_upper_leg_joint : {p: 180, d: 0.9, i: 20}
+        fl_lower_leg_joint : {p: 180, d: 0.9, i: 20}
+        fr_hip_joint : {p: 180, d: 0.9, i: 20}
+        fr_upper_leg_joint : {p: 180, d: 0.9, i: 20}
+        fr_lower_leg_joint : {p: 180, d: 0.9, i: 20}
+        rl_hip_joint : {p: 180, d: 0.9, i: 20}
+        rl_upper_leg_joint : {p: 180, d: 0.9, i: 20}
+        rl_lower_leg_joint : {p: 180, d: 0.9, i: 20}
+        rr_hip_joint : {p: 180, d: 0.9, i: 20}
+        rr_upper_leg_joint : {p: 180, d: 0.9, i: 20}
+        rr_lower_leg_joint : {p: 180, d: 0.9, i: 20}

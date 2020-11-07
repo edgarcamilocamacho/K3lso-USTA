@@ -1,0 +1,46 @@
+<launch>
+
+    <arg name="dxl_usb_port"            default="/dev/ttyUSB0"/>
+    <arg name="dxl_baud_rate"           default="4000000"/>
+    <arg name="loop_rate"               default="200"/>
+
+    <arg name="only_monitor"            default="False"/>
+    <arg name="fake_mode"               default="True"/>
+
+    <arg name="initial_pose"            default="stand"/>
+    <arg name="initial_fake_pose"       default="rest_air"/>
+    <arg name="init_pose_step"          default="0.001"/>
+
+    <param
+        name="robot_description"
+        textfile="$(find k3lso_description)/urdf/k3lso_description.urdf" />
+
+    <include file="$(find k3lso_dynamixel)/launch/k3lso_dynamixel.launch">
+        <arg name="dxl_usb_port"         value="$(arg dxl_usb_port)"/>
+        <arg name="dxl_baud_rate"        value="$(arg dxl_baud_rate)"/>
+        <arg name="loop_rate"            value="$(arg loop_rate)"/>
+        <arg name="only_monitor"         value="$(arg only_monitor)"/>
+        <arg name="fake_mode"            value="$(arg fake_mode)"/>    
+        <arg name="initial_pose"         value="$(arg initial_pose)"/>    
+        <arg name="initial_fake_pose"    value="$(arg initial_fake_pose)"/>
+        <arg name="init_pose_step"       value="$(arg init_pose_step)"/>    
+    </include>
+
+    <!-- <node
+        name="robot_state_publisher"
+        pkg="robot_state_publisher"
+        type="robot_state_publisher" />
+
+    <node
+        name="rviz"
+        pkg="rviz"
+        type="rviz"
+        args="-d $(find k3lso_robot)/rviz/k3lso_monitor.rviz" />
+
+    <node
+        name="tf_footprint_base"
+        pkg="tf"
+        type="static_transform_publisher"
+        args="0 0 -0.5 0 0 0 base_link base_footprint 40" /> -->
+
+</launch>

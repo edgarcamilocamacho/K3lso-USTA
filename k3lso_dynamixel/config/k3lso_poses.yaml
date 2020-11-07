@@ -1,0 +1,41 @@
+zero:
+  fl_hip_joint:         0.0
+  fl_upper_leg_joint:   0.0
+  fl_lower_leg_joint:   0.0
+  fr_hip_joint:         0.0
+  fr_upper_leg_joint:   0.0
+  fr_lower_leg_joint:   0.0
+  rl_hip_joint:         0.0
+  rl_upper_leg_joint:   0.0
+  rl_lower_leg_joint:   0.0
+  rr_hip_joint:         0.0
+  rr_upper_leg_joint:   0.0
+  rr_lower_leg_joint:   0.0
+
+stand:
+  fl_hip_joint:         7.5497901264e-08
+  fl_upper_leg_joint:   0.926839232445
+  fl_lower_leg_joint:   -1.63522958755
+  fr_hip_joint:         -4.37113882867e-08
+  fr_upper_leg_joint:   0.926831424236
+  fr_lower_leg_joint:   -1.63527441025
+  rl_hip_joint:         7.5497901264e-08
+  rl_upper_leg_joint:   0.926839232445
+  rl_lower_leg_joint:   -1.63522958755
+  rr_hip_joint:         -4.37113882867e-08
+  rr_upper_leg_joint:   0.926831424236
+  rr_lower_leg_joint:   -1.63527441025
+
+rest_air:
+  fr_lower_leg_joint:   -0.355734990993
+  rr_hip_joint:         0.199417502425
+  rr_lower_leg_joint:   0.00134544814168
+  rl_hip_joint:         -0.39883500485
+  fl_lower_leg_joint:   -0.0013174734585
+  fr_hip_joint:         0.426446659032
+  fl_hip_joint:         -0.452524332426
+  rl_lower_leg_joint:   0.000638174984102
+  rr_upper_leg_joint:   0.204019444789
+  rl_upper_leg_joint:   0.181009732971
+  fr_upper_leg_joint:   -0.145728174849
+  fl_upper_leg_joint:   0.0168737886667

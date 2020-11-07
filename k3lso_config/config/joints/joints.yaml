@@ -1,0 +1,23 @@
+left_front:
+  - fl_hip_joint
+  - fl_upper_leg_joint
+  - fl_lower_leg_joint
+  - fl_foot_joint
+
+right_front:
+  - fr_hip_joint
+  - fr_upper_leg_joint
+  - fr_lower_leg_joint
+  - fr_foot_joint
+
+left_hind:
+  - rl_hip_joint
+  - rl_upper_leg_joint
+  - rl_lower_leg_joint
+  - rl_foot_joint
+
+right_hind:
+  - rr_hip_joint
+  - rr_upper_leg_joint
+  - rr_lower_leg_joint
+  - rr_foot_joint
