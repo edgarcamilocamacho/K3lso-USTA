@@ -11,7 +11,7 @@
     <node name="champ_teleop" pkg="champ_teleop" type="champ_teleop.py" output="screen" required="true">
         <param name="joy" value="$(arg joy)" />
         <param name="speed" value="0.5" />
-        <param name="turn" value="0.25" />
+        <param name="turn" value="0.5" />
     </node>
 
     <node name="vel_pose_smoother" pkg="champ_teleop" type="vel_pose_smoother.py" output="screen" required="true"/>

@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find k3lso_config)/launch/bringup.launch">
+        <arg name="rviz"                   value="true"/>
+        <arg name="hardware_connected"     value="false" />
+    </include>
+</launch>

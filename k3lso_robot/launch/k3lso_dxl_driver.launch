@@ -22,25 +22,25 @@
         <arg name="init_pose_step"             value="$(arg init_pose_step)"/>    
     </include>
 
-    <node
+    <!-- <node
         name="robot_state_publisher"
         pkg="robot_state_publisher"
-        type="robot_state_publisher" />
+        type="robot_state_publisher" /> -->
 
-    <node
+    <!-- <node
         name="rviz"
         pkg="rviz"
         type="rviz"
-        args="-d $(find k3lso_robot)/rviz/k3lso_monitor.rviz" />
+        args="-d $(find k3lso_robot)/rviz/k3lso_monitor.rviz" /> -->
 
     <!-- <node if="$(arg rviz)" name="rviz" pkg="rviz" type="rviz"
             args="-d $(find champ_description)/rviz/urdf_viewer.rviz -f $(arg rviz_ref_frame)"
             output="screen"/> -->
 
-    <node
+    <!-- <node
         name="tf_footprint_base"
         pkg="tf"
         type="static_transform_publisher"
-        args="0 0 -0.5 0 0 0 base_link base_footprint 40" />
+        args="0 0 -0.5 0 0 0 base_link base_footprint 40" /> -->
 
 </launch>
