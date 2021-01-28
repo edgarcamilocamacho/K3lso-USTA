@@ -10,4 +10,7 @@
     <node name="champ_teleop" pkg="champ_teleop" type="champ_teleop.py" output="screen" required="true">
         <param name="joy" value="$(arg joy)" />
     </node>
+
+    <node name="vel_pose_smoother" pkg="champ_teleop" type="vel_pose_smoother.py" output="screen" required="true"/>
+    
 </launch>

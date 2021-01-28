@@ -98,6 +98,10 @@ CTRL-C to quit
             twist.linear.x = data.axes[1] * self.speed
             twist.linear.y = data.buttons[4] * data.axes[0] * self.speed
             twist.angular.z = (not data.buttons[4]) * data.axes[0] * self.turn
+            ##############################
+            # twist.linear.y = 0.0
+            # twist.angular.z = 0.0
+            ##############################
         else:
             if self.jog == "ps4":
                 body_pose.roll = -data.axes[3] * 0.349066
